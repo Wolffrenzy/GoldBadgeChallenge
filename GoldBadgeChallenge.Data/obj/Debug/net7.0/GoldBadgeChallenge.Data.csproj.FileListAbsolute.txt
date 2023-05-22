@@ -1,0 +1,12 @@
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\bin\Debug\net7.0\GoldBadgeChallenge.Data.deps.json
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\bin\Debug\net7.0\GoldBadgeChallenge.Data.dll
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\bin\Debug\net7.0\GoldBadgeChallenge.Data.pdb
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\obj\Debug\net7.0\GoldBadgeChallenge.Data.csproj.AssemblyReference.cache
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\obj\Debug\net7.0\GoldBadgeChallenge.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\obj\Debug\net7.0\GoldBadgeChallenge.Data.AssemblyInfoInputs.cache
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\obj\Debug\net7.0\GoldBadgeChallenge.Data.AssemblyInfo.cs
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\obj\Debug\net7.0\GoldBadgeChallenge.Data.csproj.CoreCompileInputs.cache
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\obj\Debug\net7.0\GoldBadgeChallenge.Data.dll
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\obj\Debug\net7.0\refint\GoldBadgeChallenge.Data.dll
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\obj\Debug\net7.0\GoldBadgeChallenge.Data.pdb
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Data\obj\Debug\net7.0\ref\GoldBadgeChallenge.Data.dll

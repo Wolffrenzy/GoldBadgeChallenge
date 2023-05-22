@@ -1,0 +1,15 @@
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\bin\Debug\net7.0\GoldBadgeChallenge.Repository.deps.json
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\bin\Debug\net7.0\GoldBadgeChallenge.Repository.dll
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\bin\Debug\net7.0\GoldBadgeChallenge.Repository.pdb
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\bin\Debug\net7.0\GoldBadgeChallenge.Data.dll
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\bin\Debug\net7.0\GoldBadgeChallenge.Data.pdb
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\obj\Debug\net7.0\GoldBadgeChallenge.Repository.csproj.AssemblyReference.cache
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\obj\Debug\net7.0\GoldBadgeChallenge.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\obj\Debug\net7.0\GoldBadgeChallenge.Repository.AssemblyInfoInputs.cache
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\obj\Debug\net7.0\GoldBadgeChallenge.Repository.AssemblyInfo.cs
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\obj\Debug\net7.0\GoldBadgeChallenge.Repository.csproj.CoreCompileInputs.cache
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\obj\Debug\net7.0\GoldBadgeChallenge.Repository.csproj.CopyComplete
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\obj\Debug\net7.0\GoldBadgeChallenge.Repository.dll
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\obj\Debug\net7.0\refint\GoldBadgeChallenge.Repository.dll
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\obj\Debug\net7.0\GoldBadgeChallenge.Repository.pdb
+D:\workspace\EFAFoundations\codingFoundations\dotnetProjects\GoldBadgeChallenge\GoldBadgeChallenge.Repository\obj\Debug\net7.0\ref\GoldBadgeChallenge.Repository.dll
