@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "d:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Repository\\GoldBadgeChallenge.Repository.csproj": {}
+    "D:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Repository\\GoldBadgeChallenge.Repository.csproj": {}
   },
   "projects": {
     "D:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Data\\GoldBadgeChallenge.Data.csproj": {
@@ -57,14 +57,14 @@
         }
       }
     },
-    "d:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Repository\\GoldBadgeChallenge.Repository.csproj": {
+    "D:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Repository\\GoldBadgeChallenge.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Repository\\GoldBadgeChallenge.Repository.csproj",
+        "projectUniqueName": "D:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Repository\\GoldBadgeChallenge.Repository.csproj",
         "projectName": "GoldBadgeChallenge.Repository",
-        "projectPath": "d:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Repository\\GoldBadgeChallenge.Repository.csproj",
+        "projectPath": "D:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Repository\\GoldBadgeChallenge.Repository.csproj",
         "packagesPath": "C:\\Users\\Gabriel Wolf\\.nuget\\packages\\",
-        "outputPath": "d:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Repository\\obj\\",
+        "outputPath": "D:\\workspace\\EFAFoundations\\codingFoundations\\dotnetProjects\\GoldBadgeChallenge\\GoldBadgeChallenge.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Wolf\\AppData\\Roaming\\NuGet\\NuGet.Config"

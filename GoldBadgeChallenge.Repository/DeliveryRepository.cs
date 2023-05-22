@@ -23,83 +23,29 @@ public class DeliveryRepository
         return _deliveries;
     }
 
-    public List<Delivery> ListEnRouteDeliveries()
+    public List<Delivery> GetEnRouteDeliveries()
     {
-        return _deliveries.FindAll(delivery => delivery.Status == "EnRoute");
+        return _deliveries.FindAll(delivery => delivery.Status == OrderStatus.EnRoute);
     }
 
-    public List<Delivery> ListCompletedDeliveries()
+    public List<Delivery> GetCompletedDeliveries()
     {
-        return _deliveries.FindAll(delivery => delivery.Status == "Complete");
+        return _deliveries.FindAll(delivery => delivery.Status == OrderStatus.Complete);
     }
 
-    public void UpdateDeliveryStatus(Delivery delivery, string newStatus)
+    public void UpdateDeliveryStatus(Delivery delivery, OrderStatus newStatus)
     {
         delivery.Status = newStatus;
     }
 
     public void CancelDelivery(Delivery delivery)
     {
-        delivery.Status = "Canceled";
+        delivery.Status = OrderStatus.Canceled;
     }
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            DeliveryRepository repo = new DeliveryRepository();
-
-            // Add a new delivery to the history (Create)
-            Delivery newDelivery = new Delivery
-            {
-                OrderDate = DateTime.Parse("2023-05-20"),
-                DeliveryDate = DateTime.Parse("2023-05-21"),
-                Status = "Scheduled",
-                ItemNumber = 1,
-                ItemQuantity = 2,
-                CustomerId = 1
-            };
-            repo.CreateDelivery(newDelivery);
-
-            // List all en route deliveries and completed deliveries (Read)
-            List<Delivery> enRouteDeliveries = repo.ListEnRouteDeliveries();
-            List<Delivery> completedDeliveries = repo.ListCompletedDeliveries();
-            Console.WriteLine("En Route Deliveries:");
-            foreach (Delivery delivery in enRouteDeliveries)
-            {
-                Console.WriteLine($"{delivery.OrderDate} {delivery.DeliveryDate} {delivery.Status} {delivery.ItemNumber} {delivery.ItemQuantity} {delivery.CustomerId}");
-            }
-
-            Console.WriteLine("\nCompleted Deliveries:");
-            foreach (Delivery delivery in completedDeliveries)
-            {
-                Console.WriteLine($"{delivery.OrderDate} {delivery.DeliveryDate} {delivery.Status} {delivery.ItemNumber} {delivery.ItemQuantity} {delivery.CustomerId}");
-            }
-
-            // Update the status of a delivery (Update)
-            Delivery deliveryToUpdate = enRouteDeliveries[0];
-            repo.UpdateDeliveryStatus(deliveryToUpdate, "Complete");
-
-            // Cancel a delivery (Delete)
-            Delivery deliveryToCancel = enRouteDeliveries[1];
-            repo.CancelDelivery(deliveryToCancel);
-        }
-    }
+    
     public Delivery GetDeliveryById(int deliveryId)
     {
         return _deliveries.FirstOrDefault(d => d.Id == deliveryId)!;
-    }
-    public void UpdateDeliveryStatus(int deliveryId, string newStatus)
-    {
-        Delivery delivery = _deliveries.FirstOrDefault(d => d.Id == deliveryId)!;
-        if (delivery != null)
-        {
-            delivery.Status = newStatus;
-        }
-    }
-
-    public List<Delivery> GetDeliveriesByStatus(string status)
-    {
-        return _deliveries.Where(d => d.Status.Equals(status, StringComparison.OrdinalIgnoreCase)).ToList();
     }
 
     public void UpdateDeliveryStatus(Delivery delivery)
@@ -111,8 +57,12 @@ public class DeliveryRepository
         }
         else
         {
-            // Handle the case when the delivery is not found
             throw new ArgumentException("Delivery not found.");
         }
+    }
+
+    public List<Delivery> GetDeliveriesByStatus(OrderStatus status)
+    {
+        return _deliveries.Where(d => d.Status == status).ToList();
     }
 }

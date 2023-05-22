@@ -14,8 +14,7 @@ namespace DeliveryService.Tests
             var delivery = new Delivery
             {
                 OrderDate = DateTime.Parse("2023-05-20"),
-                DeliveryDate = DateTime.Parse("2023-05-21"),
-                Status = "Scheduled",
+                Status = OrderStatus.Scheduled, 
                 ItemNumber = 1,
                 ItemQuantity = 2,
                 CustomerId = 12345
